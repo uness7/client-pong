@@ -1,0 +1,8 @@
+:root {
+    font-family: '8bit', sans-serif;
+    background-color: black;
+    color: white;
+    --primary-color: white;
+    --secondary-color: #3498db;
+    --background-color: black;
+}

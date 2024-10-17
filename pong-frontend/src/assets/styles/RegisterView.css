@@ -1,0 +1,79 @@
+.registerBox {
+    background: var(--background-color);
+    border-radius: 15px;
+    max-width: 400px;
+    padding: 25px 55px;
+    animation: slideInTop 1s;
+    box-shadow: 0 0 30px var(--primary-color);
+}
+
+.content {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.aaa {
+    color: white;
+}
+
+.w100 {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: 1px solid var(--primary-color);
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.action {
+    height: 40px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    width: 100%;
+    cursor: pointer;
+    background: green;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 1px solid var(--primary-color);
+}
+
+.action-disabled {
+    color: #eee;
+    background: var(--background-color);
+    cursor: not-allowed;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.title {
+    width: 100%;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#consent {
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
